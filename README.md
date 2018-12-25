@@ -25,7 +25,7 @@ cd client && npm run build
 ```
 
 ## Deploy
-
+```bash
 heroku login
 heroku create
 heroku <git path>
@@ -33,7 +33,7 @@ heroku <git path>
   git commit -m <message>
   git push heroku master
 heroku open
-
+```
 ## App Info
 
 ### Author
