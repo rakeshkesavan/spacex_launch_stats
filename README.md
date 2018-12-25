@@ -26,6 +26,7 @@ cd client && npm run build
 
 ## Deploy
 ```bash
+cd client && npm run build
 heroku login
 heroku create
 heroku <git path>
