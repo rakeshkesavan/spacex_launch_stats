@@ -24,6 +24,16 @@ cd client && npm run build
 # Graphiql - http://localhost:5000/graphql
 ```
 
+## Deploy
+
+heroku login
+heroku create
+heroku <git path>
+  git add .
+  git commit -m <message>
+  git push heroku master
+heroku open
+
 ## App Info
 
 ### Author
